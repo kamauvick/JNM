@@ -1,2 +1,2 @@
 # JNM
-A random trial
+A random trial on this awesome site
