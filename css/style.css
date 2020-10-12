@@ -41,6 +41,7 @@
   box-sizing: border-box; }
 
 html {
+  scroll-behavior: smooth;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -7460,13 +7461,40 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: .97;
-  background-image: url("https://github.com/kamauvick/JNM/blob/master/images/crane1.jpg?raw=true");
+  background-image: url("../images/crane1.jpg");
 background-repeat: no-repeat;
 background-size: cover;}
+
+@media (max-width: 767.98px) {
+    .hero-wrap .overlay {
+      position: absolute;
+      top: 0;
+      height: inherit;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      content: '';
+      opacity: .97;
+    background-image: url("../images/crane1.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+background-position: center center;}
+   }
+
 
 /* .ftco-section{
   margin-top:-40px;
 } */
+
+.contact-header{
+  margin: -13% 0 0 0;
+  float: left;
+}
+#feedback{
+  display:flex;
+  justify-content:flex-start;
+  /* flex-direction:column; */
+}
 
 #particles-js {
   position: absolute;
@@ -7736,15 +7764,27 @@ background-size: cover;}
       .ftco-section-featured .featured-img:hover .text, .ftco-section-featured .featured-img:hover .text-1 {
         opacity: 1; }
 
+/*Some mobile media querries*/
+
 .chini-kidogo{
   margin-top:-12%;
   margin-bottom: -10%;
 }
+@media (max-width: 767.98px) {
+  .chini-kidogo{
+    margin-top:-25%;
+    margin-bottom:0%;
+  }
+  .pili-section{
+    margin-top: -220px;
+  }
+ }
+
 .gal-section-two{
   margin-top: -20%;
 }
-.gal-section-one{
-  /* margin-top: -8%; */
+.testimonials{
+  margin-top: -10%;
 }
 
 .services .icon {
@@ -8098,7 +8138,7 @@ textarea.form-control {
 
 .ftco-section .ftco-primary-title {
   margin-top: 0;
-  margin-bottom: 30px; }
+  margin-bottom: 20px; }
 
 .media-custom {
   background: #fff; }
@@ -8115,7 +8155,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 8em 0;
+  padding: 5em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
