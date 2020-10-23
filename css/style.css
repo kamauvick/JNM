@@ -7296,6 +7296,11 @@ h1, h2, h3, h4, h5,
   color: #404044;
   font-weight: 400; }
 
+
+#logo{
+  height: 50px;
+  width: 80px;
+}
 .text-primary {
   color: #ee76ad !important; }
 
