@@ -307,6 +307,10 @@ textarea.input100 {
   padding-left: 22px;
 }
 
+/* .paypal-btn{
+  margin-right: -70px;
+  margin-left: -170px;
+} */
 /*------------------------------------------------------------------
 [ Button ]*/
 .container-contact100-form-btn {
@@ -325,7 +329,7 @@ textarea.input100 {
   width: 100%;
   height: 50px;
   border-radius: 25px;
-  background: #2235db;
+  background: #bd52dd;
   font-family: Montserrat-Bold;
   font-size: 15px;
   line-height: 1.5;
@@ -339,6 +343,28 @@ textarea.input100 {
   align-items: center;
   padding: 0 25px;
 
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.pay-with-paypal{
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  background: #2235db;
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
