@@ -7334,7 +7334,7 @@ h1, h2, h3, h4, h5,
     padding-bottom: .9rem;
     padding-left: 20px;
     padding-right: 20px;
-    color: #f0f0f0;
+    color: #c9cc07;
     font-weight: 400;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
@@ -7476,7 +7476,7 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: .97;
-  background-image: url("../images/Mount-Kilimanjaro.jpg");
+  background-image: url("../images/njaro1.jpg");
 background-repeat: no-repeat;
 background-size: cover;}
 
@@ -7497,9 +7497,9 @@ background-position: center center;}
    }
 
 
-/* .ftco-section{
-  margin-top:-40px;
-} */
+.ftco-section{
+  margin-bottom: 20px;
+}
 
 .go-back-up{
   display:flex;
@@ -7811,7 +7811,7 @@ background-position: center center;}
 /*Some mobile media querries*/
 
 .chini-kidogo{
-  margin-top:-12%;
+  margin-top:-10%;
   margin-bottom: -10%;
 }
 @media (max-width: 767.98px) {
