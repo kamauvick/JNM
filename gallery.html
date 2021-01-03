@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,700,800" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -30,7 +30,7 @@
 
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item text-white"><a href="/index.html" class="nav-link">Home</a></li>
+            <li class="nav-item text-white"><a href="./index.html" class="nav-link">Home</a></li>
             <!-- <li class="nav-item active"><a href="#" class="nav-link" id="about">About</a></li> -->
             <!-- <li class="nav-item"><a href="#" class="nav-link">Safaris</a></li> -->
             <li class="nav-item dropdown">
@@ -53,7 +53,7 @@
     <div class="js-fullheight">
   
     <div class="bg-l">
-   <h1 class="text-center mt-5 mb-5">Gallery</h1>
+   <h1 class="text-center mt-5">Gallery</h1>
     </div>
 
     <section class="ftco-section chini-kidogo">
@@ -65,19 +65,19 @@
                   <div class="col-md-4">
                     <div class="block-10">
                       <img src="images/amboseli1.jpg" alt="" class="img-fluid">
-                      <p>An elephant and its young one in Amboseli National Park.</p>
+                      <p class="text-center mt-1">An elephant and its young one in Amboseli National Park.</p>
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="block-10">
                       <img src="images/mombasa.jpg" alt="" class="img-fluid">
-                      <p>The beauty of Mombasa.</p>
+                      <p class="text-center mt-1">The beauty of Mombasa.</p>
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="block-10">
                       <img src="images/kenya-diani-beach.jpg" alt="" class="img-fluid">
-                      <p>Diani Beach.</p>
+                      <p class="text-center mt-1">Diani Beach.</p>
                     </div>
                   </div>
                 </div>
@@ -89,19 +89,19 @@
                   <div class="col-md-4">
                     <div class="block-10">
                       <img src="images/Mount-Kilimanjaro.jpg" alt="" class="img-fluid">
-                      <p>Giraffes over looking mt Kilimanjaro</p>
+                      <p class="text-center mt-1">Giraffes over looking mt Kilimanjaro</p>
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="block-10">
                       <img src="images/amboseli.jpg" alt="" class="img-fluid">
-                      <p>Elephants walking in Amboseli National Park.</p>
+                      <p class="text-center mt-1">Elephants walking in Amboseli National Park.</p>
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="block-10">
                       <img src="images/mara1.jpg" alt="" class="img-fluid">
-                      <p>Lions relaxing in Masai Mara.</p>
+                      <p class="text-center mt-1">Lions relaxing in Masai Mara.</p>
                     </div>
                   </div>
                 </div>
@@ -109,6 +109,56 @@
             </div>
         
           </div>
+      </section>
+      <section class="ftco-section contact">
+        <div class="container mt-5" id="contacts">
+          <h2 class="text-center pt-2" >Get in Touch</h2>
+          <div class="footer-icons">
+            <figure>
+              <Span class="text-center mb-1"><i id="foo-ico" class="fa fa-map-marker mt-5 kapointer" aria-hidden="true"></i></Span>
+              <figcaption class="">
+                <Span class="text-center">Royal Park-Langata Road Nairobi</Span>
+              </figcaption>
+            </figure>
+            <figure>
+              <Span class="text-center mb-1"><i id="foo-ico" class="fa fa-mobile mt-5 kasimu" aria-hidden="true"></i></Span>
+              <figcaption class="">
+                <Span>+254724492323 | +254735166059</Span>
+              </figcaption>
+            </figure>
+            <figure>
+              <Span class="text-center mb-1"><i id="foo-ico" class="fa fa-envelope mt-5 kaemail" aria-hidden="true"></i></Span>
+              <figcaption class="">
+                <Span>travel@jennimkenya.com</Span>
+              </figcaption>
+            </figure>
+          
+        </div>
+      </section>
+
+      <section class="go-back-up">
+        <button onclick="topFunction()" id="myBtn" class="btn btn-circle"> <i class='fas fa-angle-up'></i></button>
+        <script>
+          //Get the button
+          var mybutton = document.getElementById("myBtn");
+          
+            // When the user scrolls down 20px from the top of the document, show the button
+          window.onscroll = function() {scrollFunction()};
+          
+          function scrollFunction() {
+            if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+              mybutton.style.display = "block";
+            } else {
+              mybutton.style.display = "none";
+            }
+          }
+          
+          // When the user clicks on the button, scroll to the top of the document
+          function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          }
+          </script>
       </section>
 
   <script src="js/jquery.min.js"></script>
@@ -130,6 +180,7 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     
   </body>
 </html> 

@@ -7496,33 +7496,53 @@ background-size: cover;}
 background-position: center center;}
    }
 
+.footer-icons{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#foo-ico{
+  font-size: 20px;
+  text-align: center;
+}
+figure{
+  text-align: center;
+}
+.kapointer{
+  color: red;
+}
+.kasimu{
+color: #007bff;
+}
+.kaemail{
+  color: var(--red);
+}
 
 .ftco-section{
   margin-bottom: 20px;
 }
 
-.go-back-up{
+/* .go-back-up{
   display:flex;
   justify-content: flex-end;
-}
+} */
 
 #myBtn {
   display: none;
   position: fixed;
-  padding-bottom: 0px;
-  bottom: 10px;
-  right: 10px;
+ bottom: 10px; 
+ right: 10px; 
   z-index: 99;
-  font-size: 20px;
+  font-size: 4px;
   border: none;
   outline: none;
   background-color: #e83e8c;
   color: white;
   cursor: pointer;
-  padding: 8px;
-  border-radius: 50px 50px ;
-  elevation: 20deg;
-  box-shadow: #989898 0 0 20px;
+  padding:22px;
+  /* border-radius: 50px 50px 50px 50px; */
+  /* elevation: 20deg; */
+  /* box-shadow: #989898 0 0 20px; */
 }
 
 #myBtn:hover {
