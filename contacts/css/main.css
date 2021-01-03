@@ -136,6 +136,32 @@ iframe {
 	border: none !important;
 }
 
+.footer-icons{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#foo-ico{
+  font-size: 20px;
+  text-align: center;
+}
+figure{
+  text-align: center;
+}
+.kapointer{
+  color: red;
+}
+.kasimu{
+color: #007bff;
+}
+.kaemail{
+  color: var(--red);
+}
+
+.ftco-section{
+  margin-bottom: 20px;
+}
+
 
 
 
